@@ -14,10 +14,11 @@
             new Vector3(0f, 0.6f, 0f)     // 4
           };
 
-          // TODO 2: 정점 3개씩 묶어 삼각형들을 구성하세요
           int[] triangles = new int[]
           {
-              // 예: 0, 1, 2,
+              0, 1, 2,
+              0, 2, 4,
+              2, 3, 4
           };
 
           Mesh mesh = new Mesh();
