@@ -12,6 +12,13 @@ public class S06_ImmediateModeTriangle_Finish : MonoBehaviour
     {
         // 이 GameObject가 활성화되어 있으면, 매 카메라 렌더링마다 Unity가 자동으로 호출함
         // (Renderer 컴포넌트 없이도 동작 — 빈 GameObject에 이 스크립트만 붙여도 됨)
+        
+        if (glMaterial == null)
+        {
+            Shader shader = Shader.Find("Hidden/Internal-Colored");
+            glMaterial = new Material(shader);
+            glMaterial.hideFlags = HideFlags.HideAndDontSave;
+        }
 
         glMaterial.SetPass(0);
         // lineMaterial이 사용할 셰이더를 GPU에 적용(활성화)
