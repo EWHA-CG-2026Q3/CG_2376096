@@ -5,7 +5,7 @@ using UnityEngine.UI;
 // FillBackground, FillRandom은 참고용으로 이미 완성되어 있습니다.
 // 이 패턴을 참고해서 FillVerticalStripes, FillCheckerboard를 완성하세요.
 
-public class S05_MyMeshRenderer : MonoBehaviour
+public class S05_Checkerboard : MonoBehaviour
 {
     [SerializeField] private int canvasWidth = 256;
     [SerializeField] private int canvasHeight = 256;
