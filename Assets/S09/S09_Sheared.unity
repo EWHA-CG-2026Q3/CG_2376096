@@ -211,7 +211,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &1798746845
+--- !u!43 &1390515740
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -228,8 +228,8 @@ Mesh:
     firstVertex: 0
     vertexCount: 6
     localAABB:
-      m_Center: {x: 0.5, y: 0.5, z: 0.5}
-      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+      m_Center: {x: 0.5, y: 0.1830127, z: 0.6830127}
+      m_Extent: {x: 0.5, y: 0.4330127, z: 0.43301272}
   m_Shapes:
     vertices: []
     shapes: []
@@ -246,7 +246,7 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 000001000200000002000300000003000400000004000100050002000100050003000200050004000300050001000400
+  m_IndexBuffer: 000002000100000003000200000004000300000001000400050001000200050002000300050003000400050004000100
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 6
@@ -308,7 +308,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 144
-    _typelessdata: 0000003f000000000000003f00000000000080bf00000000000000000000003f00000000f30435bf00000000f30435bf0000803f0000003f00000000f304353f00000000f30435bf0000803f0000003f0000803ff304353f00000000f304353f000000000000003f0000803ff30435bf00000000f304353f0000003f0000803f0000003f000000000000803f00000000
+    _typelessdata: 0000003f000080bed7b3dd3e00000000d8b35d3f0000003f00000000d7b3dd3e0000803ef304353ff204b5be70c41c3f0000803fd7b3dd3e0000803ef30435bff204b5be70c41c3f0000803fa43089bdecd98e3ff30435bff204b53e70c41cbf00000000a43089bdecd98e3ff304353ff204b53e70c41cbf0000003fd7b31d3fecd96e3f00000000d8b35dbf000000bf
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -362,8 +362,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 0.5, y: 0.5, z: 0.5}
-    m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+    m_Center: {x: 0.5, y: 0.1830127, z: 0.6830127}
+    m_Extent: {x: 0.5, y: 0.4330127, z: 0.43301272}
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
@@ -527,7 +527,6 @@ GameObject:
   - component: {fileID: 1977442019}
   - component: {fileID: 1977442023}
   - component: {fileID: 1977442022}
-  - component: {fileID: 1977442021}
   - component: {fileID: 1977442020}
   m_Layer: 0
   m_Name: RotationX
@@ -560,7 +559,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1977442018}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 094fbd49cc14340d1b4fb04af56dd60e, type: 3}
+  m_Script: {fileID: 11500000, guid: 58b4c9e4e70b148b1947603ae463ac0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DiamondMesh
   baseVertices:
@@ -570,20 +569,6 @@ MonoBehaviour:
   - {x: 1, y: 0.5, z: 1}
   - {x: 0, y: 0.5, z: 1}
   - {x: 0.5, y: 1, z: 0.5}
-  triangles: 000000000100000002000000000000000200000003000000000000000300000004000000000000000400000001000000050000000200000001000000050000000300000002000000050000000400000003000000050000000100000004000000
---- !u!114 &1977442021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977442018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e26b788c3eb1d9489434422107fbf3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::S09_RotationX
-  angle: 30
 --- !u!23 &1977442022
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -640,7 +625,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977442018}
-  m_Mesh: {fileID: 1798746845}
+  m_Mesh: {fileID: 1390515740}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
