@@ -163,7 +163,7 @@ Animator:
   m_GameObject: {fileID: 87646435}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1010e35dde59ab342badb4f2fbef52da, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9a808a9b9fdc14b5186f73fd7dc0530c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -717,6 +717,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1227067044}
+  - component: {fileID: 1227067045}
   m_Layer: 0
   m_Name: Moon_Orbit
   m_TagString: Untagged
@@ -740,6 +741,28 @@ Transform:
   - {fileID: 1591624596}
   m_Father: {fileID: 87646436}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1227067045
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227067043}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 154c8ec638d9549019c104a8efcfc14d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1253996202
 GameObject:
   m_ObjectHideFlags: 0
