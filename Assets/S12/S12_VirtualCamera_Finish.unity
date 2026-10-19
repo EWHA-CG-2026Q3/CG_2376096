@@ -807,7 +807,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1471013548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd776e23def65442183014c219937703, type: 3}
+  m_Script: {fileID: 11500000, guid: 480cd7b7921834d38bfe9bf1d95d1da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::S12_VirtualCamera_Finish
   targets:
